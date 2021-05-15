@@ -4,9 +4,8 @@ import string
 
 senha = ''
 symbols = '#@&!'
-numbers = '0123456789'
 
-group = string.ascii_letters + numbers + symbols
+group = string.ascii_letters + string.digits + symbols
 
 size = int(input('Escolha um tamano: '))
 
