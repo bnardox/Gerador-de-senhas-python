@@ -1,7 +1,6 @@
 import random
 import string
 from time import sleep
-import os
 
 
 #Definindo algumas variavies importantes
@@ -39,7 +38,7 @@ while True:
         print('Digite um NÚMERO!\n')
         sleep(0.6)
         continue
-    
+
 sleep(1)
 print('Gerando senha...', end=' ')
 
