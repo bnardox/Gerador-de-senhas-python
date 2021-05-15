@@ -5,7 +5,7 @@ from time import sleep
 
 #Definindo algumas variavies importantes
 senha = ''
-symbols = '#@&!'
+symbols = '@&!'
 
 #Concatenando as letras maiusculas e minusculas e números
 group = string.ascii_letters + string.digits + symbols
